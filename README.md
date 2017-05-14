@@ -19,8 +19,8 @@ docker-compose up -d
 
 ## Authors
 
-* @ChoiZ +FrançoisLASSERRE choiz@me.com ([Docker-Deefuzzer](https://github.com/ChoiZ/Docker-DeeFuzzer))
-* @yomguy +GuillaumePellerin yomguy@parisson.com ([Deefuzzer](https://github.com/yomguy/DeeFuzzer))
+* @ChoiZ +FrançoisLASSERRE choiz@me.com ([Docker-DeeFuzzer](https://github.com/ChoiZ/Docker-DeeFuzzer))
+* @yomguy +GuillaumePellerin yomguy@parisson.com ([DeeFuzzer](https://github.com/yomguy/DeeFuzzer))
 
 ## Licence
 

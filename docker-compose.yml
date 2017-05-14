@@ -1,0 +1,21 @@
+# icecast container
+icecast:
+  image: moul/icecast
+  volumes:
+    - logs:/var/logs/icecast2
+    - /etc/localtime:/etc/localtime:ro
+  environment:
+    - ICECAST_SOURCE_PASSWORD=source_pass
+    - ICECAST_ADMIN_PASSWORD=admin_pass
+    - ICECAST_PASSWORD=icecast_pass
+    - ICECAST_RELAY_PASSWORD=relay_pass
+  ports:
+    - 8000:8000
+  restart: always
+
+# deefuzzer container
+deefuzzer:
+  image: choiz/deefuzzer
+  links:
+    - icecast
+  restart: always

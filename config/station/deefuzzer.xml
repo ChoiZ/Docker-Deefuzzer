@@ -1,0 +1,50 @@
+<deefuzzer>
+    <log>/home/deefuzzer/mystation/station.log</log>
+    <m3u>/home/deefuzzer/mystation/station.m3u</m3u>
+    <stationdefaults>
+        <control>
+            <mode>0</mode>
+            <port>16001</port>
+        </control>
+        <jingles>
+            <dir>/home/deefuzzer/mystation/jingles</dir>
+            <mode>0</mode>
+            <shuffle>1</shuffle>
+        </jingles>
+    </stationdefaults>
+    <station>
+        <infos>
+            <description>My personal station</description>
+            <genre>Rock</genre>
+            <name>My personal station</name>
+	    <url>https://www.github.com/yomguy/deefuzzer</url>
+        </infos>
+        <media>
+            <bitrate>192</bitrate>
+            <source>/home/deefuzzer/mystation/playlist.m3u</source>
+            <format>mp3</format>
+            <ogg_quality>4</ogg_quality>
+            <samplerate>44100</samplerate>
+            <shuffle>0</shuffle>
+            <voices>2</voices>
+        </media>
+        <feeds>
+            <mode>1</mode>
+            <rss>0</rss>
+            <json>1</json>
+            <playlist>1</playlist>
+            <dir>/home/deefuzzer/mystation/rss/</dir>
+            <enclosure>1</enclosure>
+            <media_url>http://localhost/media/</media_url>
+        </feeds>
+        <server>
+            <host>icecast</host>
+            <mountpoint>mystation</mountpoint>
+            <port>8000</port>
+            <public>1</public>
+            <sourcepassword>source_pass</sourcepassword>
+            <type>icecast</type>
+            <appendtype>1</appendtype>
+        </server>
+    </station>
+</deefuzzer>

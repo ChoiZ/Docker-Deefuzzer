@@ -24,4 +24,4 @@ docker-compose up -d
 
 ## Licence
 
-[MIT](https://github.com/choiz/docker-deefuzzer/blob/master/LICENSE)
+[MIT](https://www.github.com/ChoiZ/Docker-DeeFuzzer/blob/master/LICENSE)

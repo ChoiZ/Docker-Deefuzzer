@@ -5,7 +5,7 @@ DeeFuzzer in Docker
 ## Run
 
 ```bash
-docker-compose up -d`
+docker-compose up -d
 ```
 
 ## Run with custom password
